@@ -195,6 +195,9 @@ p {
 }
 
 .portfolio-nav.button {
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: 0;
   background-color: var(--button-background);
   color: var(--title-text-color);
 
@@ -234,5 +237,7 @@ footer {
 }
 
 .logo.footerlogo {
+  display: inline-block;
+  padding-bottom: 20px;
   color: var(--white-color);
 }
