@@ -1,0 +1,181 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --button-backgroun: #f5f4fa;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --secondary-background: #2f303a;
+}
+
+.list {
+  list-style: none;
+}
+
+.page {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--title-text-color);
+
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logoblue {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link.contact {
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.link.current {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+  background-color: var(--secondary-background);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+}
+
+.section {
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+
+  text-align: center;
+}
+
+.card-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.feature-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team-title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.card-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.portfolio-nav.button {
+  background-color: var(--button-backgroun);
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.portfolio-nav.button:hover,
+.portfolio-nav.button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.address {
+  color: var(--white-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-link {
+  color: var(--footer-link-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.logo.footerlogo {
+  color: var(--white-color);
+}
+
+/* акцент #2196F3 
+основной #212121
+вторичный #757575
+белый #FFFFFF
+футер почта телефон rgba(255, 255, 255, 0.6)
+#2F303A
+*/
